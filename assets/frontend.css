@@ -1,0 +1,75 @@
+/* Simple Contact Form - Frontend */
+
+/* Wrapper */
+.sucf-wrapper {
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+
+/* Form Layout */
+.sucf-form {
+    max-width: 600px;
+    width: 100%;
+}
+
+.sucf-form p {
+    margin-bottom: 15px;
+}
+
+.sucf-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Inputs & Textarea */
+.sucf-form input,
+.sucf-form textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: var(--sucf-field-color, #000);
+    background-color: var(--sucf-field-bg, #fff);
+    border-color: var(--sucf-border-color, #ccc);
+}
+
+/* Button */
+.sucf-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: var(--sucf-border-radius, 4px);
+    background-color: var(--sucf-button-bg, #0073aa);
+    color: var(--sucf-button-color, #fff);
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.sucf-form button:hover {
+    opacity: 0.9;
+}
+
+/* Success / Error Messages */
+.sucf-success {
+    padding: 10px;
+    background-color: #dff0d8;
+    border: 1px solid #d0e9c6;
+    color: #3c763d;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+.sucf-error {
+    padding: 10px;
+    background-color: #f2dede;
+    border: 1px solid #ebcccc;
+    color: #a94442;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+/* Honeypot */
+.sucf-hp {
+    display: none !important;
+}
